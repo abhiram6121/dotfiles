@@ -68,4 +68,5 @@ eval "$(zoxide init --cmd cd zsh)"
 if [[ -d "$HOME/.volta" ]]; then
   export VOLTA_HOME="$HOME/.volta"
   export PATH="$VOLTA_HOME/bin:$PATH"
+  export VOLTA_FEATURE_PNPM=1
 fi
