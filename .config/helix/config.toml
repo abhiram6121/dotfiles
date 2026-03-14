@@ -1,0 +1,17 @@
+theme = "ayu_dark"
+
+[editor]
+line-number = "relative"
+cursorline = true
+color-modes = true
+idle-timeout = 50
+true-color = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+character = "┊"

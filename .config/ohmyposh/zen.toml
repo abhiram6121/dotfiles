@@ -30,7 +30,7 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
       commit_icon = '@'
       fetch_status = true
 
-[[blocks]]
+ [[blocks]]
   type = 'rprompt'
   overflow = 'hidden'
 
